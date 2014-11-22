@@ -10,12 +10,11 @@ function show(){
 }
 
 function calculardiferencia(object){
-  fechainicial=$('#reloj').data('start');
+  fechainicial=object.data('start');
   fechainicial=new Date(fechainicial);
   fechaactual = new Date();
   fechafinal=fechaactual-fechainicial;
   fechafinal=new Date(fechafinal);
-  console.log(fechafinal);
   return (fechafinal);
 }
 

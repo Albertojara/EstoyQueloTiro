@@ -92,7 +92,12 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>
                             <a  class="btn btn-primary botonenvio" id="botonenvio1">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                            <p id="reloj1" class="reloj" data-start="11/22/2014 10:55" data-end="11/22/2014 17:00"></p>
+                            <p id="reloj1" class="reloj" data-pricemin="5" data-price="40" data-discount="2" data-interval="11/22/2014 01:00" data-start="11/22/2014 9:00" data-end="11/22/2014 16:00"></p>
+                            <p>precio inicial 40€</p>
+                            <p>precio minimo 5€</p>
+                            <p>descuento de 2€ cada hora</p>
+                            <p class="currentPrice"></p>
+                            <p class="reloj1"></p>
                         </p>
                     </div>
                 </div>
@@ -182,9 +187,11 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/reloj.js"></script>
+    <script src="js/precios.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
         <script language='JavaScript'>
                 setInterval(function(){
                     for(var i=1 ;i<=$('.reloj').size(); i++){
