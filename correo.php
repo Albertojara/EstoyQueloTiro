@@ -6,7 +6,7 @@ if($_POST["correo"]!=""){
 	$correo=$_POST["correo"];
 }
 
-$para      = 'estoyquelotirosw@gmail.com';
+$para      = 'tojarandroid@gmail.com';
 $titulo    = 'Entrada de Malú';
 $mensaje   = "la cuenta de twitter es".$cuenta."la cuenta de correo es".$correo;
 $hola="hola";
