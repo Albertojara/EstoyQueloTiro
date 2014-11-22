@@ -194,7 +194,8 @@
                 <form method="POST" action="correo.php">  
                         <span>Cuenta de twitter&nbsp;&nbsp;&nbsp; </span><input type="text" required name="cuenta"><br><br>
                         <span>E-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="email"  required name="correo"><br><br>
-                        <input type="submit" class="btn btn-success" >
+                        <input id="price" name="price">
+                        <input id="success" type="submit" class="btn btn-success" >
                 </form>
             </div>
             <div class="modal-footer">
@@ -221,6 +222,11 @@
                        muestraReloj(i); 
                     }
                 }, 1000);
+                $('#success').click(function(){
+                            $(this).parent().children('#price').val();
+                        }
+                );
+
             </script>
 </body>
 

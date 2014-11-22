@@ -6,7 +6,10 @@ $(document).ready(function() {
 }) ;
 
 function show(){
-  $('#howToModal').modal();
+    $('#price').val($(this).parent().parent().children('.reloj').data('actualPrice'));
+    $('#price').attr('type','hidden');
+    $('#howToModal').modal();
+
 }
 
 function calculardiferencia(object){

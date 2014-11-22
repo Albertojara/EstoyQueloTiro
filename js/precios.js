@@ -10,11 +10,13 @@ function calculatePrice(object){
     if(format=='hours'){
         var num_int=Math.floor((diferencia.getHours())/interval.getHours())-1;
         var currentPrice=price-(discount*num_int);
+        object.data('actualPrice',currentPrice);
     }
     else{
         var num_int=Math.floor(diferencia.getMinutes()/interval.getMinutes());
         num_int+=Math.floor(((diferencia.getHours()*60)-1)/interval.getMinutes());
         var currentPrice=price-(discount*num_int);
+        object.data('actualPrice',currentPrice);
     }
     return currentPrice;
 }
