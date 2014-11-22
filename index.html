@@ -39,19 +39,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Inicio</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Sobre Nosotros</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#">Servicios</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -85,13 +85,18 @@
         <div class="row text-center">
 
             <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
+                <div class="thumbnail oferta" id="oferta1">
                     <img src="http://placehold.it/800x500" alt="">
                     <div class="caption">
                         <h3>Feature Label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>
                             <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                            <p id="reloj1" class="reloj" data-pricemin="5" data-price="40" data-discount="2" data-interval="11/22/2014 01:00" data-start="11/22/2014 9:00" data-end="11/22/2014 15:00"></p>
+                            <p class="price">precio inicial 40€</p>
+                            <p class="price">precio minimo 5€</p>
+                            <p class="price">descuento de 0.20€ cada minuto</p>
+                            <p class="reloj1"></p>
                         </p>
                     </div>
                 </div>
@@ -105,6 +110,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>
                             <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                            <p id="reloj2" data-start="11/22/2014 11:55"  class="reloj" data-end="11/22/2014 14:55"></p>
                         </p>
                     </div>
                 </div>
@@ -155,10 +161,17 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/reloj.js"></script>
+    <script src="js/precios.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+        <script language='JavaScript'>
+                setInterval(function(){
+
+                }, 1000);
+        </script>
 
 </body>
 
