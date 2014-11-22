@@ -4,8 +4,7 @@
     <list default="true" id="2b786eab-aadd-460e-a124-97f8c87b142a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correo.php" afterPath="$PROJECT_DIR$/correo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/precios.js" afterPath="$PROJECT_DIR$/js/precios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/reloj.js" afterPath="$PROJECT_DIR$/js/reloj.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EstoyQueloTiro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.019608" vertical-offset="2735" max-vertical-offset="3585">
-              <caret line="196" column="54" selection-start-line="196" selection-start-column="54" selection-end-line="196" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.33225283" vertical-offset="2615" max-vertical-offset="3585">
+              <caret line="188" column="33" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -42,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="correo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="correo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/correo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3652968" vertical-offset="0" max-vertical-offset="657">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="405">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
@@ -272,16 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.019608" vertical-offset="2735" max-vertical-offset="3585">
-          <caret line="196" column="54" selection-start-line="196" selection-start-column="54" selection-end-line="196" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/precios.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
@@ -300,9 +289,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/correo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3652968" vertical-offset="0" max-vertical-offset="657">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="405">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33225283" vertical-offset="2615" max-vertical-offset="3585">
+          <caret line="188" column="33" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
