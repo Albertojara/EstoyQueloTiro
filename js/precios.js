@@ -8,7 +8,7 @@ function calculatePrice(object){
     var diferencia=calculardiferencia(object);
     var format= interval.getHours()!=0? 'hours':'minutes';
     if(format=='hours'){
-        var num_int=Math.floor((diferencia.getHours()-1)/interval.getHours())-1;
+        var num_int=Math.floor((diferencia.getHours())/interval.getHours())-1;
         var currentPrice=price-(discount*num_int);
     }
     else{
