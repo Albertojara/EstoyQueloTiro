@@ -1,4 +1,14 @@
 
+$(document).ready(function() { 
+
+                       $(".botonenvio").click(show); 
+
+}) ;
+
+function show(){
+  $('#howToModal').modal();
+}
+
 function calculardiferencia(object){
   fechainicial=object.data('start');
   fechainicial=new Date(fechainicial);
@@ -16,6 +26,7 @@ function muestraReloj(id) {
   horas=(fecha.getHours()-1);
   minutos=(fecha.getMinutes());
   segundos=(fecha.getSeconds());
+  milisegundos=(fecha.getMilliseconds());
 
   if (segundos === 0){ segundos=59; minutos--;}
   if (minutos === 0){ minutos=59; horas--;}
@@ -23,6 +34,14 @@ function muestraReloj(id) {
   segundos --;
   var string = "";
   string += horas +':'+ minutos + ':'+ segundos;
-  document.getElementById("reloj").innerHTML = string;
+  if(fecha<=0){
+    $("#reloj"+id).html("Oferta Expirada");
+    $("#botonenvio"+id).attr("disabled","disabled");
+  }
+  else{
+   $("#reloj"+id).html(string);  
+  }
+  
   
 }
+
