@@ -11,7 +11,7 @@ $titulo    = 'Entrada de Malú';
 $mensaje   = "la cuenta de twitter es"+$cuenta+"la cuenta de correo es"+$correo;
 $hola="hola";
 
-mail($para, $titulo, $correo,$mensaje);
+mail($para, $titulo,$mensaje);
 
 header("index.html");
 
