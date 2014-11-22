@@ -164,12 +164,13 @@
             </div>
             <div class="modal-body">
                 <form method="POST" action="correo.php">  
-                        <span>Cuenta de twitter&nbsp;&nbsp;&nbsp; </span><input type="text" name="cuenta"><br><br>
-                        <span>E-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" name="correo">
+                        <span>Cuenta de twitter&nbsp;&nbsp;&nbsp; </span><input type="text" required name="cuenta"><br><br>
+                        <span>E-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="email"  required name="correo"><br><br>
+                        <input type="submit" class="btn btn-success" >
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"></button>
+                
             </div>
 
         </div><!-- /.modal-content -->
