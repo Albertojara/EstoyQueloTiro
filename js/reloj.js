@@ -2,6 +2,7 @@
 $(document).ready(function() { 
 
                        $(".botonenvio").click(show); 
+                       $('#botoneventos').click(function(){$('#modalevento').modal()});
 
 }) ;
 
@@ -9,6 +10,7 @@ function show(){
     $('#price').val($(this).parent().parent().children('.reloj').data('actualPrice'));
     $('#price').attr('type','hidden');
     $('#howToModal').modal();
+
 
 }
 

@@ -64,8 +64,9 @@
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
             <h1>¿Tu también estás que lo tiras?</h1>
-            <h2> En Estoyquelotiro te damos la última oportunidad de vender o comprar </h2>
-            <p><a class="btn btn-primary btn-large">Conócenos!</a>
+            <h4> En Estoyquelotiro no queremos que pierdas la oportunidad de vender el billete de tren que se te ha quedado colgado por anular tu viaje de fin de semana, ni que dejes de ir al concierto en el que estarán todos tus amigos.<br><br>
+            <b>Compra-Venta de entradas de eventos-tickets-viajes</b></h4>
+            <p><a class="btn btn-primary btn-large" id="botoneventos">Sube tu evento</a>
             </p>
         </header>
 
@@ -214,6 +215,36 @@
                         <span>Cuenta de twitter&nbsp;&nbsp;&nbsp; </span><input type="text" required name="cuenta"><br><br>
                         <span>E-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="email"  required name="correo"><br><br>
                         <input id="price" name="price">
+                        <input id="success" type="submit" class="btn btn-success" >
+                </form>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<div id="modalevento" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only"></span></button>
+              <h4 class="modal-title" id="myModalLabel"> Introduzca los datos del evento</h4>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="correoevento.php">  
+                         <span>Nombre &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="nombre"><br><br>
+                          <span>E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="email"  required name="email"><br><br>
+                            <span>Teléfono&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="telefono"><br><br>
+                        <span>Titulo Evento&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" required name="titulo"><br><br>
+                        <span>Fecha &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="date"  required name="fecha"><br><br>
+                        <span>Localización &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="localizacion"><br><br>
+                        <span>Hora Evento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="time"  required name="hora"><br><br>
+                         <span>Precio Inicial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="precioinicial"><br><br>
+                          <span>Precio Mínimo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="preciominimo"><br><br>
+                        
                         <input id="success" type="submit" class="btn btn-success" >
                 </form>
             </div>
