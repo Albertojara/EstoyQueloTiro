@@ -34,7 +34,7 @@ $hola="hola";
 
 mail($para,$titulo,$mensaje);
 
-header("Location: http://estoyquelotiro.co");
+//header("Location: http://estoyquelotiro.co");
 
 
 ?>
