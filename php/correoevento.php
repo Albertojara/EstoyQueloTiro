@@ -27,14 +27,14 @@ if($_POST["preciominimo"]!=""){
 	$preciominimo=$_POST["preciominimo"];
 }
 
-$para      = 'tojarandroid@gmail.com';
+$para      = 'estoyquelotirosw@gmail.com';
 $titulo    = 'Correo de Evento';
 $mensaje   = "Nombre : ".$nombre." \n E-mail :  ".$email. "\n Telefono : ".$telefono."\n Titulo del Evento : ".$titulo."\n Fecha : ".$fecha."\n Localizacion : ".$localizacion." \n Hora: ".$hora." \n Precio Inicial : ".$precioinicial." \n Precio Mínimo : ".$preciominimo;
 $hola="hola";
 
 mail($para,$titulo,$mensaje);
 
-//header("Location: http://estoyquelotiro.co");
+header("Location: http://estoyquelotiro.co");
 
 
 ?>

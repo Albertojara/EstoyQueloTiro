@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-57015417-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Estoy que lo Tiro</title>
+    <title>Heroic Features - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +29,7 @@
 <body>
 
     
-    <!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
        
             <div class="navbar-header">
@@ -48,17 +39,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Inicio</a>
+                <a class="navbar-brand" href="index.html">Inicio</a>
             </div>
             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">Sobre Nosotros</a>
+                        <a href="conocenos.html">Conócenos</a>
                     </li>
-                    <li>
-                        <a href="#">Servicios</a>
-                    </li>
+                   
                     <li>
                         <a href="#">Contacto</a>
                     </li>
@@ -67,7 +56,7 @@
             
         </div>
        
-    </nav> -->
+    </nav> 
 
     <!-- Page Content -->
     <div class="container" id="container">
@@ -75,8 +64,9 @@
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
             <h1>¿Tu también estás que lo tiras?</h1>
-            <h2> En Estoyquelotiro te damos la última oportunidad de vender o comprar </h2>
-            <p><a class="btn btn-primary btn-large">Conócenos!</a>
+            <h4> En Estoyquelotiro no queremos que pierdas la oportunidad de vender el billete de tren que se te ha quedado colgado por anular tu viaje de fin de semana, ni que dejes de ir al concierto en el que estarán todos tus amigos.<br><br>
+            <b>Compra-Venta de entradas de eventos-tickets-viajes</b></h4>
+            <p><a class="btn btn-primary btn-large" id="botoneventos">Sube tu evento</a>
             </p>
         </header>
 
@@ -85,98 +75,13 @@
         <!-- Title -->
         <div class="row">
             <div class="col-lg-12" id="espaciomodal">
-                <h3>Entradas de Última hora</h3>
+               
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Page Features -->
-        <div class="row text-center">
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail oferta" id="oferta1">
-                    <img src="img/malulotiro.jpg" alt="">
-                    <div class="caption">
-                        <h3>Entrada concierto Malú</h3>
-                        <p>Madrid 22/11/2014 </p>
-                        <p>21:00 Horas</p>
-                        <p>
-                            <a  class="btn btn-primary botonenvio" id="botonenvio1">Comprar!</a>
-                            <p id="reloj1" class="reloj" data-pricemin="5" data-price="40" data-discount="2" data-interval="11/22/2014 01:00" data-start="11/22/2014 15:00" data-end="11/22/2014 20:30"></p>
-                            <p>precio inicial 40€</p>
-                            <p>precio minimo 5€</p>
-                            <p>descuento de 2€ cada hora</p>
-                            <p class="currentPrice"></p>
-                            <p class="reloj1"></p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail oferta" id="oferta2">
-                    <img src="img/fitolotiro.jpg" alt="">
-                    <div class="caption">
-                        <h3>Entrada concierto Fito Y Fitipaldis</h3>
-                        <p>Jeréz de la Frontera 22/11/2014 </p>
-                        <p>22:00 Horas</p>
-                        <p>
-                            <a  class="btn btn-primary botonenvio" id="botonenvio1">Comprar!</a>
-                            <p id="reloj2" class="reloj" data-pricemin="31" data-price="45" data-discount="2" data-interval="11/22/2014 01:00" data-start="11/22/2014 9:00" data-end="11/22/2014 21:30"></p>
-                            <p>precio inicial 45€</p>
-                            <p>precio minimo 31€</p>
-                            <p>descuento de 2€ cada hora</p>
-                            <p class="currentPrice"></p>
-                            <p class="reloj4"></p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-      <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail oferta" id="oferta3">
-                    <img src="./img/drumsquelotiro.jpg" alt="">
-                    <div class="caption">
-                        <h3>The Drums</h3>
-                        <p>Madrid Sala Arena 22/11/2014 </p>
-                        <p>20:00 Horas</p>
-                        <p>
-                            <a  class="btn btn-primary botonenvio" id="botonenvio1">Comprar!</a>
-                            <p id="reloj3" class="reloj" data-pricemin="10" data-price="30" data-discount="2" data-interval="11/22/2014 01:00" data-start="11/22/2014 14:00" data-end="11/22/2014 19:30"></p>
-                            <p>precio inicial 30€</p>
-                            <p>precio minimo 10€</p>
-                            <p>descuento de 2€ cada hora</p>
-                            <p class="currentPrice"></p>
-                            <p class="reloj3"></p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-              <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail oferta" id="oferta3">
-                    <img src="img/reyleonquelotiro.jpg" alt="">
-                    <div class="caption">
-                        <h3>Musical El Rey León</h3>
-                        <p>Madrid Teatro Lope De Vega 22/11/2014 </p>
-                        <p>22:00 Horas</p>
-                        <p>
-                            <a  class="btn btn-primary botonenvio" id="botonenvio1">Comprar!</a>
-                            <p id="reloj4" class="reloj" data-pricemin="10" data-price="60" data-discount="10" data-interval="11/22/2014 01:00" data-start="11/22/2014 14:00" data-end="11/22/2014 21:30"></p>
-                            <p>precio inicial 60€</p>
-                            <p>precio minimo 30€</p>
-                            <p>descuento de 10€ cada hora</p>
-                            <p class="currentPrice"></p>
-                            <p class="reloj4"></p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-        
-
-        </div>
-        <!-- /.row -->
+    
 
         <hr>
 
@@ -214,6 +119,36 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div>
+<div id="modalevento" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only"></span></button>
+              <h4 class="modal-title" id="myModalLabel"> Introduzca los datos del evento</h4>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="php/correoevento.php">  
+                         <span>Nombre &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="nombre"><br><br>
+                          <span>E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="email"  required name="email"><br><br>
+                            <span>Teléfono&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="telefono"><br><br>
+                        <span>Titulo Evento&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" required name="titulo"><br><br>
+                        <span>Fecha &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="date"  required name="fecha"><br><br>
+                        <span>Localización &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="localizacion"><br><br>
+                        <span>Hora Evento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="time"  required name="hora"><br><br>
+                         <span>Precio Inicial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="precioinicial"><br><br>
+                          <span>Precio Mínimo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text"  required name="preciominimo"><br><br>
+                        
+                        <input id="success" type="submit" class="btn btn-success" >
+                </form>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
 <!-- END Modal definition -->
     <!-- /.container -->
 
@@ -225,7 +160,19 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-   
+        <script language='JavaScript'>
+                setInterval(function(){
+                    for(var i=1 ;i<=$('.reloj').size(); i++){
+                       muestraReloj(i); 
+                    }
+                }, 1000);
+                $('#success').click(function(){
+                            $(this).parent().children('#price').val();
+                        }
+                );
+
+            </script>
 </body>
 
 </html>
+

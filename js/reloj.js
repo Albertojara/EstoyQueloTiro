@@ -28,7 +28,7 @@ function muestraReloj(id) {
   fechaFin=new Date(fechaFin);
   fecha=fechaFin-new Date();
   fecha=new Date(fecha);
-  horas=(fecha.getHours()-1);
+  horas=(fecha.getHours()-1)+fecha.getDay()*24;
   minutos=(fecha.getMinutes());
   segundos=(fecha.getSeconds());
   milisegundos=(fecha.getMilliseconds());
