@@ -11,7 +11,7 @@ if($_POST["mensaje"]!=""){
 
 $para      = 'tojarandroid@gmail.com';
 $titulo    = 'Correo de Estoyquelotiro';
-$mensajefinal   = " Nombre : ".$nombre."\n  La cuenta de correo es : ".$email." \n Mensaje : " .$mensaje;
+$mensajefinal   = " Nombre : ".$nombre."\n  La cuenta de correo es : ".$email." \n Mensaje : ".$mensaje;
 $hola="hola";
 
 mail($para,$titulo,$mensajefinal);
