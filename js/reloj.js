@@ -14,6 +14,7 @@ function show(){
 
 }
 
+
 function calculardiferencia(object){
   fechainicial=object.data('start');
   fechainicial=new Date(fechainicial);
@@ -28,7 +29,7 @@ function muestraReloj(id) {
   fechaFin=new Date(fechaFin);
   fecha=fechaFin-new Date();
   fecha=new Date(fecha);
-  horas=(fecha.getHours()-1)+fecha.getDay()*24;
+  horas=(fecha.getHours()-1);
   minutos=(fecha.getMinutes());
   segundos=(fecha.getSeconds());
   milisegundos=(fecha.getMilliseconds());

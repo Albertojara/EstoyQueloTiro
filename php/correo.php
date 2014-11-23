@@ -9,7 +9,7 @@ if($_POST["price"]!=""){
     $price=$_POST["price"];
 }
 
-$para      = 'tojarandroid@gmail.com';
+$para      = 'estoyquelotirosw@gmail.com';
 $titulo    = 'Entrada de Malú';
 $mensaje   = "la cuenta de twitter es ".$cuenta." la cuenta de correo es ".$correo." al siguiente precio " .$price;
 $hola="hola";

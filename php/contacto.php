@@ -9,7 +9,7 @@ if($_POST["mensaje"]!=""){
     $mensaje=$_POST["mensaje"];
 }
 
-$para      = 'tojarandroid@gmail.com';
+$para      = 'estoyquelotirosw@gmail.com';
 $titulo    = 'Correo de Estoyquelotiro';
 $mensajefinal   = " Nombre : ".$nombre."\n  La cuenta de correo es : ".$email." \n Mensaje : ".$mensaje;
 $hola="hola";
